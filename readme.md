@@ -1,4 +1,4 @@
-# Super Fun Web Scraping
+# Grazr Scraper
 
 [![Slides][slides-img]][slides-url]
 
