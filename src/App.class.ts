@@ -51,7 +51,7 @@ export class App {
 	selectElements($, selector: string): cheerio.Element[] {
 		const elements: cheerio.Element[] = [];
 		$(selector).each(function (i, elem) {
-			elements[i] = elem;
+			elements.push(elem);
 		});
 		return elements;
 	}
